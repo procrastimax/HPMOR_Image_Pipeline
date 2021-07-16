@@ -1,0 +1,7 @@
+HPMOR_crawler/
+HPMOR_data/
+TextChunkGenerator/
+TextToImage/
+env/
+tokenizers/
+*.txt
