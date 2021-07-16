@@ -1,4 +1,4 @@
-# HPMOR Task Resource Creator
+# HPMOR Image Pipeline
 With the help of this repo one can easily create images from text paragraphs from the HPMOR fan fiction.
 All images are saved in the `HPMOR_data` folder. Also the original text and context images are saved there for each paragraph.
 
@@ -6,9 +6,11 @@ All images are saved in the `HPMOR_data` folder. Also the original text and cont
 Just execute the *installer.sh* with `sh installer.sh` to download all needed repos and setting up the folder structure.
 
 Needed programs are:
-    - `python3`
-    - `pip3`
-    -  `virtualenv` (can be installed with `pip3 install virtualenv`)
+
+- `bash`
+- `python3`
+- `pip3`
+- `virtualenv` (can be installed with `pip3 install virtualenv`)
 
 ## Image creation
 The paragraph images can be created by executing `bash text_image_creator.bash`.
