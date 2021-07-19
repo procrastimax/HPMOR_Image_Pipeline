@@ -15,3 +15,6 @@ Needed programs are:
 ## Image creation
 The paragraph images can be created by executing `bash text_image_creator.bash`.
 With the `-h` flag all possible options to this script are displayed.
+
+## Base64 creation
+When executing the `create_base64_files.bash` script, all *.png* files inside the HPMOR_data/paragraph_images/ are encoded as base64 and saved as text files.
