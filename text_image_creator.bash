@@ -76,7 +76,7 @@ while getopts ":hc:f:a:b:m:s:w:d:l:" opt; do
 done
 shift $((OPTIND -1))
 
-# activating pyenv
+# activating virtualenv
 source ./env/bin/activate
 
 if [[ $CHAPTER_NR -gt 0 ]]; then
@@ -129,4 +129,5 @@ echo
 echo "Cleaning up..."
 rm ./*par-*
 
+# deactivate virtualenv
 deactivate

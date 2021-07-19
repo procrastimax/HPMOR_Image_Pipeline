@@ -3,7 +3,7 @@ With the help of this repo one can easily create images from text paragraphs fro
 All images are saved in the `HPMOR_data` folder. Also the original text and context images are saved there for each paragraph.
 
 ## Installation
-Just execute the *installer.sh* with `sh installer.sh` to download all needed repos and setting up the folder structure.
+Just execute the *installer.bash* with `bash installer.bash` to download all needed repos and setting up the folder structure.
 
 Needed programs are:
 
